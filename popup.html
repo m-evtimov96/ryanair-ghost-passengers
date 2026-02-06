@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ryanair Autofill</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Ryanair Passenger Autofill</h2>
+    <p>Automatically fill ghost passenger details.</p>
+
+    <div class="info">
+      <span id="passengerCount">Passengers detected: 0</span>
+    </div>
+
+    <div class="controls">
+      <button id="fill">Fill Passengers</button>
+      <div id="spinner" class="spinner hidden"></div>
+    </div>
+
+    <div class="footer">
+      <small>Powered by not paying *extra* for seats ✈️</small>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
